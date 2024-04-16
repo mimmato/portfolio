@@ -1,7 +1,7 @@
 # PORTFOLIO                
 
 <div style="display: flex; align-items: flex-start;">
-    <img src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" width="200" height="200" style="margin-right: 20px;"/>
+    <img align="right" src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" width="200" height="200" style="margin-right: 20px;"/>
     <div>
         <h2>ABOUT ME</h2>
         <p>👋 Hello there and welcome Misho's GitHub portfolio page!</p>
