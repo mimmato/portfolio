@@ -18,3 +18,9 @@
 2. [Test Cases lab (Manual)]()
 - 2.1 
 - 2.2
+
+3. JIRA Bug reports
+- 3.1
+- 3.2
+
+4. [Test cases lab (Automatic)]()
