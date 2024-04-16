@@ -1,4 +1,4 @@
-# PORTFOLIO
+# PORTFOLIO                 ![alt text](https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4)
 
 ## ABOUT ME
 
@@ -17,6 +17,3 @@
 1. [Postman collection of requests (GitHub API)](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections)
 
 2. [Test Cases lab (Manual)]()
-
-
-![alt text](https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4)
