@@ -1,7 +1,7 @@
 # PORTFOLIO                
 
 <p align="right">
- <img src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4"/>
+ <img src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" width="200" height="200"/>
 </p>
 
 
