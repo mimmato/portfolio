@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "88275c80-7d7d-4242-a030-333611661cf7",
+		"name": "PORTFOLIO - GIT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "issues",
+			"item": [
+				{
+					"name": "issue_creation",
+					"id": "8ad16cd4-8849-44e0-a5ee-154c54562da1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"Testing Issue Creation via Postman.\",\r\n  \"body\": \"This is the first test.\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://api.github.com/repos/mimmato/portfolio/issues"
+					},
+					"response": []
+				},
+				{
+					"name": "issue_creation2",
+					"id": "0d06a0e1-c8bd-4e74-9a37-ccad5a2a69d6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Testing Issue Creation via Postman - pt2.\",\r\n    \"body\": \"This is the second test.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://api.github.com/repos/mimmato/portfolio/issues"
+					},
+					"response": []
+				},
+				{
+					"name": "issue_list",
+					"id": "de7b95cf-455b-4cef-b62f-7353a1e1752e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Testing Issue Creation via Postman - pt2.\",\r\n    \"body\": \"This is the second test.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://api.github.com/repos/mimmato/portfolio/issues"
+					},
+					"response": []
+				}
+			],
+			"id": "eca46a1f-2336-4ec7-be52-c4162b86fb88"
+		},
+		{
+			"name": "listing",
+			"item": [
+				{
+					"name": "list_contents_basic_auth",
+					"id": "0dafe8b6-bc85-49f3-97d2-31490ecb932b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://api.github.com/repos/mimmato/portfolio/contents"
+					},
+					"response": []
+				},
+				{
+					"name": "list_contents_bearer",
+					"id": "831def19-1f51-4b6e-95fa-48f3a10e9788",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://api.github.com/repos/mimmato/portfolio/contents"
+					},
+					"response": []
+				},
+				{
+					"name": "list_file_contents_base64",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3b696c28-0593-4755-9ed1-69c511132efd",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "f9bcbdaa-93d0-4669-8aea-680c3fbf13b3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://api.github.com/repos/mimmato/portfolio/contents/README.md"
+					},
+					"response": []
+				},
+				{
+					"name": "list_file_content_base64_decrypt",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3b696c28-0593-4755-9ed1-69c511132efd",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "e2f55a61-d99d-4bbd-a5df-434522ca7590",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Var",
+								"value": "va",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": "https://api.github.com/repos/mimmato/portfolio/contents/README.md"
+					},
+					"response": []
+				}
+			],
+			"id": "a28413fc-8ea1-4d9b-ada9-38ee015b1fbe"
+		},
+		{
+			"name": "uploading",
+			"item": [
+				{
+					"name": "upload_entire_file_form-data",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3b696c28-0593-4755-9ed1-69c511132efd",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "8bacaba9-fe4d-4815-a321-d2adcfb105b2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "filename",
+									"type": "file",
+									"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
+									"filesNotInWorkingDirectory": [
+										"/C:/Users/Mihai/Desktop/Portfolio/Portfolio/README_COPY.md"
+									],
+									"src": "/C:/Users/Mihai/Desktop/Portfolio/Portfolio/README_COPY.md"
+								}
+							]
+						},
+						"url": "https://api.github.com/repos/mimmato/portfolio/contents"
+					},
+					"response": []
+				}
+			],
+			"id": "8c532a79-2b95-4003-9877-163b90b84f2b"
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "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"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "34ecf0bd-dc99-47d9-beb9-908ad08bcab3",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "1fc3dcd7-7b9d-4c3c-a276-e16e5cf8d375",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
