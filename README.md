@@ -16,7 +16,6 @@
 1. [Postman collection of requests (GitHub API)](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections)
 
 2. [Test Cases lab (Manual)]()
-    2.1 
-    2.2
-    2.3
-    
+2.1 
+2.2
+2.3
