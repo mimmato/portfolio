@@ -2,7 +2,7 @@
 
 ## ABOUT ME
 
-👋 Hello there and welcome to my GitHub portfolio page!
+👋 Hello there and welcome Misho's GitHub portfolio page!
 
 🔍 I'm currently on a journey to become proficient in Quality Assurance (QA) and seeking opportunities in the field.
 
@@ -15,3 +15,5 @@
 ### TABLE OF CONTENTS
 
 1. [Postman collection of requests (GitHub API)](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections)
+
+2.  
