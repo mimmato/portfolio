@@ -1,4 +1,9 @@
-# PORTFOLIO                 ![alt text](https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4)
+# PORTFOLIO                
+
+<p align="center">
+ <img src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4"/>
+</p>
+
 
 ## ABOUT ME
 
