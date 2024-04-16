@@ -14,4 +14,4 @@
 
 ### TABLE OF CONTENTS
 
-1. Postman collection of requests (GitHub API)
+1. [Postman collection of requests (GitHub API)](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections)
