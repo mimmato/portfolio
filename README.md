@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 # My QA Portfolio                
 ## ABOUT ME
 <div style="display: flex; align-items: flex-start;">
@@ -26,3 +30,7 @@
 - 3.2
 
 4. [Test Cases lab (Automatic)]()
+
+
+</body>
+</html>
