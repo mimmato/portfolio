@@ -13,3 +13,5 @@
 💼 If you're looking for a dedicated and detail-oriented QA professional, feel free to explore my projects and reach out! I'm eager to contribute to innovative projects and collaborate with like-minded individuals.
 
 ### TABLE OF CONTENTS
+
+1. Postman collection of requests (GitHub API)
