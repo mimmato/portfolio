@@ -1,9 +1,8 @@
 # My QA PORTFOLIO                
-
+## ABOUT ME
 <div style="display: flex; align-items: flex-start;">
     <img align="right" src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" width="150" height="150" style="margin-right: 20px;"/>
     <div>
-        <h2>ABOUT ME</h2>
         <p>👋 Hello there and welcome Misho's GitHub portfolio page!</p>
         <p>🔍 I'm currently on a journey to become proficient in Quality Assurance (QA) and seeking opportunities in the field.</p>
         <p>📚 This portfolio is a showcase of my projects, experiments, and learning resources as I explore the fascinating world of software quality assurance.</p>
