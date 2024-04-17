@@ -18,8 +18,9 @@
 ### TABLE OF CONTENTS
 
 1. Postman collection of requests
-- 1.1 [GitHub API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections)
+- 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections)
 - 1.2 EvilTester.com API Challenges
+- 1.3 SOAP API
 
 2. [Test Cases lab (Manual)]()
 - 2.1 
