@@ -538,8 +538,27 @@
 			"name": "labels",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "get_labels",
 					"id": "85e83f31-75bb-4271-bc39-9df2749b60df",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{GitApi_portoflio_repo}}/labels"
+					},
+					"response": []
+				},
+				{
+					"name": "create_label",
+					"id": "a699a7f5-104f-4d2d-be4c-fca28eb7deee",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
