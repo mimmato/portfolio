@@ -552,7 +552,22 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{GitApi_portoflio_repo}}/labels"
+						"url": {
+							"raw": "{{GitApi_portoflio_repo}}/labels/:name",
+							"host": [
+								"{{GitApi_portoflio_repo}}"
+							],
+							"path": [
+								"labels",
+								":name"
+							],
+							"variable": [
+								{
+									"key": "name",
+									"value": "bug"
+								}
+							]
+						}
 					},
 					"response": []
 				},
