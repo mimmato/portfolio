@@ -154,7 +154,37 @@
 					"response": []
 				}
 			],
-			"id": "eca46a1f-2336-4ec7-be52-c4162b86fb88"
+			"id": "eca46a1f-2336-4ec7-be52-c4162b86fb88",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "{{token}}"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b83e3d8b-1c93-4520-afeb-b28ac917b79e",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "1e1e625d-2acd-442d-920b-9578c12caba3",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "listing",
@@ -526,14 +556,14 @@
 	"auth": {
 		"type": "bearer",
 		"bearer": {
-			"token": "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"
+			"token": "{{token}}"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1458ec8e-80f2-4bc5-99b9-eec43fbaa122",
+				"id": "26d30030-db7d-4ef6-9ed9-7e148f15d4d5",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -544,7 +574,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ebef68a1-970a-4c77-bb8b-e830aaacbffd",
+				"id": "8c69d755-d7cb-4056-8f75-a08b5efcde84",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
