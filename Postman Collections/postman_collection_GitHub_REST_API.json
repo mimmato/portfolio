@@ -16,6 +16,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token}}"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -27,7 +33,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues"
+						"url": "{{GitApi_portoflio_repo}}/issues"
 					},
 					"response": []
 				},
@@ -49,7 +55,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues"
+						"url": "{{GitApi_portoflio_repo}}/issues"
 					},
 					"response": []
 				},
@@ -60,6 +66,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token}}"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -71,7 +83,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues"
+						"url": "{{GitApi_portoflio_repo}}/issues"
 					},
 					"response": []
 				},
@@ -93,7 +105,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/3"
+						"url": "{{GitApi_portoflio_repo}}/issues/3"
 					},
 					"response": []
 				},
@@ -115,7 +127,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/4/lock"
+						"url": "{{GitApi_portoflio_repo}}/issues/4/lock"
 					},
 					"response": []
 				},
@@ -137,7 +149,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/4/lock"
+						"url": "_repo}}/issues/4/lock"
 					},
 					"response": []
 				}
@@ -156,7 +168,20 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://api.github.com/repos/mimmato/portfolio/contents"
+						"url": "{{GitApi_portoflio_repo}}/contents"
+					},
+					"response": []
+				},
+				{
+					"name": "list_contents_basic_auth Copy",
+					"id": "e1787fab-23ec-432f-b076-9141ee757877",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{GitApi_portoflio_repo}}/contents"
 					},
 					"response": []
 				},
@@ -169,7 +194,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://api.github.com/repos/mimmato/portfolio/contents"
+						"url": "{{GitApi_portoflio_repo}}/contents"
 					},
 					"response": []
 				},
@@ -195,7 +220,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://api.github.com/repos/mimmato/portfolio/contents/README.md"
+						"url": "{{GitApi_portoflio_repo}}/contents/README.md"
 					},
 					"response": []
 				},
@@ -228,7 +253,7 @@
 								"disabled": true
 							}
 						],
-						"url": "https://api.github.com/repos/mimmato/portfolio/contents/README.md"
+						"url": "{{GitApi_portoflio_repo}}/contents/README.md"
 					},
 					"response": []
 				}
@@ -274,7 +299,7 @@
 								}
 							]
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/contents"
+						"url": "{{GitApi_portoflio_repo}}/contents"
 					},
 					"response": []
 				}
@@ -302,7 +327,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/assignees/mimmato"
+						"url": "{{GitApi_portoflio_repo}}/assignees/mimmato"
 					},
 					"response": []
 				},
@@ -335,7 +360,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/4/assignees"
+						"url": "{{GitApi_portoflio_repo}}/issues/4/assignees"
 					},
 					"response": []
 				},
@@ -357,7 +382,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/4/assignees"
+						"url": "{{GitApi_portoflio_repo}}/issues/4/assignees"
 					},
 					"response": []
 				}
@@ -376,7 +401,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/comments"
+						"url": "{{GitApi_portoflio_repo}}/issues/comments"
 					},
 					"response": []
 				},
@@ -398,7 +423,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/4/comments"
+						"url": "{{GitApi_portoflio_repo}}/issues/4/comments"
 					},
 					"response": []
 				},
@@ -420,7 +445,7 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/comments/2059697668"
+						"url": "{{GitApi_portoflio_repo}}/issues/comments/2059697668"
 					},
 					"response": []
 				},
@@ -442,12 +467,30 @@
 								}
 							}
 						},
-						"url": "https://api.github.com/repos/mimmato/portfolio/issues/comments/2059702447"
+						"url": "{{GitApi_portoflio_repo}}/issues/comments/2059702447"
 					},
 					"response": []
 				}
 			],
 			"id": "f6bbf286-7b5d-4cc2-87f8-88198880f37c"
+		},
+		{
+			"name": "labels",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "85e83f31-75bb-4271-bc39-9df2749b60df",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "2dfc5fab-9cf6-4210-ad26-147d926dfeae"
 		}
 	],
 	"auth": {
@@ -460,7 +503,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4531b08f-8f6b-47d6-b400-853983a59e1f",
+				"id": "60312d28-88ae-403b-ae22-716803ffd393",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -471,7 +514,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "51a1e892-1e5d-45bf-bcc3-c2b6c9751ef7",
+				"id": "a0ee77c0-9047-40df-92df-196ddb08575d",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -488,7 +531,7 @@
 		},
 		{
 			"key": "GitApi_portoflio_repo",
-			"value": "https://api.github.com/repos/mimmato/portfolio"
+			"value": "{{GitApi_portoflio_repo}}"
 		}
 	]
 }
