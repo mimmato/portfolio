@@ -258,7 +258,37 @@
 					"response": []
 				}
 			],
-			"id": "a28413fc-8ea1-4d9b-ada9-38ee015b1fbe"
+			"id": "a28413fc-8ea1-4d9b-ada9-38ee015b1fbe",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "{{GitApi_portoflio_repo}}"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b9ff1ba2-2177-497a-9ef4-c6ea03888227",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "317f6a02-dc2e-41fb-9a4f-1d6219fc1532",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "uploading",
@@ -503,7 +533,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "60312d28-88ae-403b-ae22-716803ffd393",
+				"id": "1458ec8e-80f2-4bc5-99b9-eec43fbaa122",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -514,7 +544,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "a0ee77c0-9047-40df-92df-196ddb08575d",
+				"id": "ebef68a1-970a-4c77-bb8b-e830aaacbffd",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -531,7 +561,7 @@
 		},
 		{
 			"key": "GitApi_portoflio_repo",
-			"value": "{{GitApi_portoflio_repo}}"
+			"value": "https://api.github.com/repos/mimmato/portfolio"
 		}
 	]
 }
