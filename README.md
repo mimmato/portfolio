@@ -19,7 +19,7 @@
 
 1. Postman collection of requests
 - 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections) (Manual testing)
-- 1.2 Trello REST API Challenges (Manual testing)
+- 1.2 Trello REST API (Manual testing)
 
 2. [Test Cases lab (Manual)]()
 - 2.1 
