@@ -17,7 +17,7 @@
 
 ### TABLE OF CONTENTS
 
-1. Postman collection of requests
+1. [Postman collections](https://github.com/mimmato/portfolio/tree/Postman-collection)
 - 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections) (Manual testing)
 - 1.2 Trello REST API (Manual testing)
 
