@@ -18,8 +18,8 @@
 ### TABLE OF CONTENTS
 
 1. [Postman collections](https://github.com/mimmato/portfolio/tree/Postman-collection)
-- 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections) (Manual testing)
-- 1.2 Trello REST API (Manual testing)
+- 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections) 
+- 1.2 JIRA REST API 
 
 2. [Test Cases lab (Manual)]()
 - 2.1 
