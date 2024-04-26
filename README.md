@@ -9,6 +9,7 @@ This branch of the repo holds all postman tests, requests and excercies that I h
         1.1.2 User Management
         1.1.3 Repository Management
         1.1.4 Authentication and Authorization
+        1.1.5 Data management
 
     1.2 dsfs
         1.2.1
