@@ -11,7 +11,7 @@ This branch of the repo holds all postman tests, requests and excercies that I h
         1.1.4 Authentication and Authorization
         1.1.5 Data management
 
-    1.2 dsfs
+    1.2 JIRA API
         1.2.1
         1.2.2
         1.2.3
