@@ -31,7 +31,7 @@
 
 4. [Test Cases lab (Automatic)]()
 
-Test
+Test2
 
 </body>
 </html>
