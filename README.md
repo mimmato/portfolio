@@ -22,14 +22,15 @@
 - 1.2 JIRA REST API 
 
 2. [Test Cases lab (Manual)]()
-- 2.1 
+- 2.1 Node.js + Express API
 - 2.2
 
-3. JIRA Bug reports
-- 3.1
-- 3.2
+3. [Test Cases lab (Automatic)]()
+- 3.1 
 
-4. [Test Cases lab (Automatic)]()
+4. JIRA Bug reports
+- 4.1
+- 4.2
 
 Test2
 
