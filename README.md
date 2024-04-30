@@ -22,7 +22,7 @@
 - 1.2 JIRA REST API 
 
 2. [Test Cases lab (Manual)]()
-- 2.1 Node.js + Express API
+- 2.1 [Node.js + Express API](https://github.com/mimmato/portfolio/tree/nodeJS_Express_API)
 - 2.2
 
 3. [Test Cases lab (Automatic)]()
