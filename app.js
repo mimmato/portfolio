@@ -1,0 +1,67 @@
+const express = require('express');
+const mysql = require('mysql');
+
+const app = express();
+app.use(express.json());
+
+// Create a connection pool
+const pool = mysql.createPool({
+    connectionLimit: 10,
+    host: 'localhost',
+    port: '33061', // Specify the port here
+    user: 'root',
+    password: 'root',
+    database: 'test_dbAPI'
+});
+
+// Check if the connection is successful
+pool.getConnection((err, connection) => {
+    if (err) {
+        console.error('Error connecting to MySQL:', err);
+        return;
+    }
+    console.log('Connected to MySQL database');
+    connection.release(); // Release the connection
+});
+
+// Route handler for the root path ("/")
+app.get('/', (req, res) => {
+    res.send('Welcome to my API!');
+});
+
+// Route for creating a new user
+app.post('/users', (req, res) => {
+    const newUser = req.body;
+    const sql = 'INSERT INTO users (name, email) VALUES (?, ?)';
+    const values = [newUser.name, newUser.email];
+
+    pool.query(sql, values, (error, result) => {
+        if (error) {
+            console.error('Error creating user:', error);
+            res.status(500).json({ error: 'Internal Server Error' });
+            return;
+        }
+        newUser.id = result.insertId; // Assign the generated ID to the user object
+        res.status(201).json(newUser);
+    });
+});
+
+// Route for getting all users
+app.get('/users', (req, res) => {
+    const sql = 'SELECT * FROM users';
+
+    pool.query(sql, (error, results) => {
+        if (error) {
+            console.error('Error retrieving users:', error);
+            res.status(500).json({ error: 'Internal Server Error' });
+            return;
+        }
+        res.json(results);
+    });
+});
+
+// Start the server
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port http://localhost:${PORT}`);
+});
