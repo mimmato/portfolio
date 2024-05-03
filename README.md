@@ -12,10 +12,11 @@ NOTE that bugs are expected as that is the point of this entire project.
 ### REQUIREMENTS:
 
 - node.js (v20.12.2 or higher)
-- nvm (0.39.7 pr higher)
+- nvm (0.39.7 оr higher)
 - Express (4.19.2)   
 - curl 
 - MySQL (8.0.36)
+- JavaScript (12.22.9)
 
 ### INSTALLATION:
 
