@@ -2,6 +2,8 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    display: flex; /* Set container to use flexbox layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
 }
 
 .about-section {
@@ -11,6 +13,12 @@
 
 .about-content {
     margin-right: 20px;
+}
+
+.about-section img {
+    border-radius: 50%;
+    width: 150px; /* Adjust the width and height to maintain aspect ratio */
+    height: 150px;
 }
 
 h1 {
@@ -46,9 +54,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Updated selector for the circular image */
-.about-section img {
-    border-radius: 70%;
-    width: 250px; /* Adjust the width and height to maintain aspect ratio */
-    height: 250px;
+/* Updated styles for the "Table of Contents" section */
+ol {
+    margin: 0; /* Remove default margin for the ordered list */
+    padding: 0; /* Remove default padding for the ordered list */
 }
