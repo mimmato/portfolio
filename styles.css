@@ -46,7 +46,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Add styles for the circular image */
+/* Updated selector for the circular image */
 .about-section img {
     border-radius: 50%;
+    width: 150px; /* Adjust the width and height to maintain aspect ratio */
+    height: 150px;
 }
