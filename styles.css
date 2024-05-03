@@ -54,6 +54,6 @@ a:hover {
 /* Circle setting for the image */
 .about-section img {
     border-radius: 100%;
-    width: 150px; /* Adjust the width and height to maintain aspect ratio */
-    height: 150px;
+    width: 250px; /* Adjust the width and height to maintain aspect ratio */
+    height: 250px;
 }
