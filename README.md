@@ -22,6 +22,11 @@ NOTE that bugs are expected as that is the point of this entire project.
 
 This will be written once I have researched suitable packaging methods.
 
+### API Endpoints
+
+
+#### PARAMETERS
+
 
 [<-- Back to the Main page](https://github.com/mimmato/portfolio)
 
