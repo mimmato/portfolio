@@ -16,9 +16,9 @@
 }
 
 .about-section img {
-    border-radius: 50%;
-    width: 150px; /* Adjust the width and height to maintain aspect ratio */
-    height: 150px;
+    border-radius: 70%;
+    width: 250px; /* Adjust the width and height to maintain aspect ratio */
+    height: 250px;
 }
 
 h1 {
