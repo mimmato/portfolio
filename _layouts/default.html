@@ -1,56 +1,59 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+    {{ content }}
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+<div class="container">
+    <h1>My QA Portfolio</h1>
+    <div class="about-section">
+        <img src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" alt="Profile Image" class="profile-image">
+        <div class="about-content">
+            <h2>ABOUT ME</h2>
+            <p>👋 Hello there and welcome to Misho's GitHub portfolio page!</p>
+            <p>🔍 I'm currently on a journey to become proficient in Quality Assurance (QA) and seeking opportunities in the field.</p>
+            <p>📚 This portfolio is a showcase of my projects, experiments, and learning resources as I explore the fascinating world of software quality assurance.</p>
+            <p>🌱 I'm passionate about ensuring the reliability, functionality, and usability of software products through testing, continuous improvement, and mastering new technologies.</p>
+            <p>💼 If you're looking for a dedicated and detail-oriented QA professional, feel free to explore my projects and reach out! I'm eager to contribute to innovative projects and collaborate with like-minded individuals.</p>
+        </div>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+    <div class="table-of-contents">
+        <h3>TABLE OF CONTENTS</h3>
+        <ol>
+            <li>
+                <a href="https://github.com/mimmato/portfolio/tree/Postman-collection">1. Postman collections</a>
+                <ul>
+                    <li><a href="https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections">GitHub REST API</a></li>
+                    <li>JIRA REST API</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">2. Test Cases lab (Manual)</a>
+                <ul>
+                    <li><a href="https://github.com/mimmato/portfolio/tree/nodeJS_Express_API">Node.js + Express API</a></li>
+                    <li>Placeholder</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">3. Test Cases lab (Automatic)</a>
+                <ul>
+                    <li>Placeholder</li>
+                </ul>
+            </li>
+            <li>
+                4. JIRA Bug reports
+                <ul>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</div>
+
+</body>
 </html>
