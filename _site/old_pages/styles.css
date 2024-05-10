@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-content h2 {
+    color: #666;
+    font-size: 24px;
+}
+
+.about-content p {
+    font-size: 16px;
+}
+
+.table-of-contents {
+    flex: 1;
+}
+
+.table-of-contents h3 {
+    color: #999;
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Circle setting for the image */
+.about-section img {
+    border-radius: 100%;
+    width: 250px; /* Adjust the width and height to maintain aspect ratio */
+    height: 250px;
+}
