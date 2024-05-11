@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f6e7; /* Warm background color */
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #7c3b8e; /* Purple heading color */
+        }
+        p {
+            text-align: justify;
+        }
+        .endpoint {
+            margin-bottom: 20px;
+        }
+        .endpoint h3 {
+            margin-top: 0;
+            color: #333; /* Darker text color for endpoints */
+        }
+        .endpoint p {
+            margin-bottom: 10px;
+        }
+        .github-logo {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="github-logo" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" />
+        <h1>Welcome to my API!</h1>
+        <p>This API has been created as part of my GitHub portfolio for <a href="https://github.com/mimmato/portfolio/">mimmato/portfolio</a>. It provides endpoints to manage user data for testing purposes.</p>
+        <p>Feel free to explore the available data and browse through the various endpoints to see how the API works.</p>
+        <h2>Available Endpoints</h2>
+        <div class="endpoint">
+            <h3>GET /users</h3>
+            <p>Retrieve all users from the database.</p>
+        </div>
+        <div class="endpoint">
+            <h3>GET /users/:id</h3>
+            <p>Retrieve a specific user by ID from the database.</p>
+        </div>
+        <div class="endpoint">
+            <h3>POST /users</h3>
+            <p>Create a new user and store it in the database.</p>
+        </div>
+        <div class="endpoint">
+            <h3>PUT /users/:id</h3>
+            <p>Update an existing user in the database.</p>
+        </div>
+    </div>
+</body>
+</html>

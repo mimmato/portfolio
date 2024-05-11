@@ -2,37 +2,34 @@
 <html>
 <body>
 
-# My QA Portfolio                
-## ABOUT ME
-<div style="display: flex; align-items: flex-start;">
-    <img align="right" src="https://avatars.githubusercontent.com/u/59510395?s=400&u=49d6366f5d1602a5a42bb0d155ed704955fb67ed&v=4" width="150" height="150" style="margin-right: 20px;"/>
-    <div>
-        <p>👋 Hello there and welcome Misho's GitHub portfolio page!</p>
-        <p>🔍 I'm currently on a journey to become proficient in Quality Assurance (QA) and seeking opportunities in the field.</p>
-        <p>📚 This portfolio is a showcase of my projects, experiments, and learning resources as I explore the fascinating world of software quality assurance.</p>
-        <p>🌱 I'm passionate about ensuring the reliability, functionality, and usability of software products through testing, continuous improvement, and mastering new technologies.</p>
-        <p>💼 If you're looking for a dedicated and detail-oriented QA professional, feel free to explore my projects and reach out! I'm eager to contribute to innovative projects and collaborate with like-minded individuals.</p>
-    </div>
-</div>
+# My QA Portfolio        
 
-### TABLE OF CONTENTS
+## Node.js + Express API (branch)
 
-1. [Postman collections](https://github.com/mimmato/portfolio/tree/Postman-collection)
-- 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections) 
-- 1.2 JIRA REST API 
+This branch holds all information related to the node.js with Express API that I am writing. The idea is to have a simple API written in JavaScript with several endpoints that can be used for testing. 
+NOTE that bugs are expected as that is the point of this entire project. 
 
-2. [Test Cases lab (Manual)]()
-- 2.1 [Node.js + Express API](https://github.com/mimmato/portfolio/tree/nodeJS_Express_API)
-- 2.2
+### REQUIREMENTS:
 
-3. [Test Cases lab (Automatic)]()
-- 3.1 
+- node.js (v20.12.2 or higher)
+- nvm (0.39.7 оr higher)
+- Express (4.19.2)   
+- curl 
+- MySQL (8.0.36)
+- JavaScript (12.22.9)
 
-4. JIRA Bug reports
-- 4.1
-- 4.2
+### INSTALLATION:
 
-Test2
+This will be written once I have researched suitable packaging methods.
+
+### API Endpoints
+
+
+#### PARAMETERS
+
+
+[<-- Back to the Main page](https://github.com/mimmato/portfolio)
+>>>>>>> b4338451828d3a937b04fb2a559994e67270a35f:README.md
 
 </body>
 </html>
