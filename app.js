@@ -48,7 +48,7 @@ app.post('/users', (req, res) => {
     });
 });
 
-// Route for getting all users with optional field selection
+// Route for getting all users with optional field selection "QP-21 <message>"
 app.get('/users', (req, res) => {
     // Get the fields to select from query parameters
     const fields = req.query.fields;
