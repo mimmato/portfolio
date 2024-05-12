@@ -55,18 +55,45 @@
         <div class="endpoint">
             <h3>GET /users</h3>
             <p>Retrieve all users from the database.</p>
+            <p>Example: <code>GET http://localhost:3000/users</code></p>
         </div>
         <div class="endpoint">
             <h3>GET /users/:id</h3>
             <p>Retrieve a specific user by ID from the database.</p>
+            <p>Example: <code>GET http://localhost:3000/users/123</code></p>
         </div>
         <div class="endpoint">
             <h3>POST /users</h3>
             <p>Create a new user and store it in the database.</p>
+            <p>Example: 
+            <pre>
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+}
+            </pre></p>
         </div>
         <div class="endpoint">
-            <h3>PUT /users/:id</h3>
+            <h3>DELETE /users/:id</h3>
+            <p>Delete a user by ID from the database.</p>
+            <p>Example: <code>DELETE http://localhost:3000/users/123</code></p>
+        </div>
+        <div class="endpoint">
+            <h3>PATCH /users/:id</h3>
             <p>Update an existing user in the database.</p>
+            <p>Example: 
+            <pre>
+PATCH http://localhost:3000/users/123
+Content-Type: application/json
+
+{
+    "name": "Updated Name",
+    "email": "updated.email@example.com"
+}
+            </pre></p>
         </div>
     </div>
 </body>
