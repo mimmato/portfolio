@@ -48,7 +48,7 @@ app.post('/users', (req, res) => {
     });
 });
 
-// Route for getting all users with optional field selection "QP-21 <message>"
+// Route for getting all users with optional field selection
 app.get('/users', (req, res) => {
     // Get the fields to select from query parameters
     const fields = req.query.fields;
@@ -70,6 +70,45 @@ app.get('/users', (req, res) => {
             return;
         }
         res.json(results);
+    });
+});
+
+// Route for deleting a user by ID
+app.delete('/users/:id', (req, res) => {
+    const userId = req.params.id;
+    const sql = 'DELETE FROM users WHERE id = ?';
+
+    pool.query(sql, userId, (error, result) => {
+        if (error) {
+            console.error('Error deleting user:', error);
+            res.status(500).json({ error: 'Internal Server Error' });
+            return;
+        }
+        if (result.affectedRows === 0) {
+            res.status(404).json({ error: 'User not found' });
+            return;
+        }
+        res.status(204).send(); // No content
+    });
+});
+
+// Route for updating (patching) a user by ID
+app.patch('/users/:id', (req, res) => {
+    const userId = req.params.id;
+    const updatedUser = req.body;
+    const sql = 'UPDATE users SET ? WHERE id = ?';
+
+    pool.query(sql, [updatedUser, userId], (error, result) => {
+        if (error) {
+            console.error('Error updating user:', error);
+            res.status(500).json({ error: 'Internal Server Error' });
+            return;
+        }
+        if (result.affectedRows === 0) {
+            res.status(404).json({ error: 'User not found' });
+            return;
+        }
+        res.status(200).json({ message: 'User updated successfully' });
     });
 });
 
