@@ -20,7 +20,7 @@ The purpose of this portfolio page is to demonstrate knowledge in the field of s
 
 Each branch of the repository will have its README.md file updated accordingly with relevent information about the technology, the reasearch that I have done, how to use the included code etc.
 
-### TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
 1. [Postman collections](https://github.com/mimmato/portfolio/tree/Postman-collection)
 - 1.1 [GitHub REST API](https://github.com/mimmato/portfolio/tree/Postman-collection/Postman%20Collections) 
@@ -37,15 +37,16 @@ Each branch of the repository will have its README.md file updated accordingly w
 - 4.1
 - 4.2
 
-#### Qualifications & certificates
+#### Qualifications & certificates:
 
-[QA Fundamentals and Manual Testing](https://softuni.bg/Certificates/Details/213880/6219cf19) - Apr 2024
+[QA Fundamentals and Manual Testing](https://softuni.bg/Certificates/Details/213880/6219cf19) <div style="text-align: right;">Apr 2024</div>
 
-[Software Technologies](https://softuni.bg/certificates/details/206329/f5488dd8) - Jan 2024
+[Software Technologies](https://softuni.bg/certificates/details/206329/f5488dd8) <div style="text-align: right;">Jan 2024</div>
 
-[Capstone: Applying Project Management in the Real World](https://www.coursera.org/account/accomplishments/verify/38BMAN2Y59WM) - Jan 2024
+[Capstone: Applying Project Management in the Real World](https://www.coursera.org/account/accomplishments/verify/38BMAN2Y59WM) <div style="text-align: right;">Jan 2024</div>
 
-[QA Basics](https://softuni.bg/certificates/details/178607/9ecc6617) - Jul 2023
+[QA Basics](https://softuni.bg/certificates/details/178607/9ecc6617) <div style="text-align: right;">Jul 2023</div>
+
 
 #### Education: 
 
