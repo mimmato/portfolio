@@ -20,7 +20,7 @@
         <img src="https://img.shields.io/badge/-mmihaylov-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mihmihaylov/" alt="Linkedin Badge">
     </a>
     <a href="https://lesnoe.bg/" target="_blank">
-        <img src="https://img.shields.io/badge/lesno%20e%20.bg-8A2BE2" alt="lesnoe.bg badge">
+        <img src="https://img.shields.io/badge/lesnoe.bg-8A2BE2" alt="lesnoe.bg badge">
     </a>
 </p>
 
