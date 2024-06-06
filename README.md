@@ -15,7 +15,7 @@
     </div>
 </div>
 
-### GETTING STARTED 🚀
+## GETTING STARTED 🚀
 The purpose of this portfolio page is to demonstrate knowledge in the field of software testing and quality assurance. I will be updating the contents over time as I learn new skills. The idea is to have a portfolio repository where each branch is dedicated to a different topic (see "TABLE OF CONTENTS" below) that I am reasearching. While I realize that this is not the most conventional way to utilize branches, I believe it is a good method to manage the portfolio data for the time being and work on each topic separately. 
 
 Each branch of the repository will have its README.md file updated accordingly with relevent information about the technology, the reasearch that I have done, how to use the included code etc.
@@ -37,7 +37,7 @@ Each branch of the repository will have its README.md file updated accordingly w
 - 4.1
 - 4.2
 
-#### Qualifications & certificates:
+## Qualifications & certificates:
 
 [QA Fundamentals and Manual Testing](https://softuni.bg/Certificates/Details/213880/6219cf19) <div style="text-align: right;">Apr 2024</div>
 
@@ -48,7 +48,7 @@ Each branch of the repository will have its README.md file updated accordingly w
 [QA Basics](https://softuni.bg/certificates/details/178607/9ecc6617) <div style="text-align: right;">Jul 2023</div>
 
 
-#### Education: 
+## Education: 
 
     years: 2014-2017
     degree: Bachelor of Arts (BA)
