@@ -17,7 +17,7 @@
 
 [![Linkedin Badge](https://img.shields.io/badge/-mmihaylov-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mihmihaylov/)](https://www.linkedin.com/in/mihmihaylov/)
 
-[![Linkedin Badge](https://img.shields.io/badge/lesno%20e%20.bg-8A2BE2)](https://lesnoe.bg/)
+[![Linkedin Badge](https://img.shields.io/badge/lesno%20e%20.bg-8A2BE2)](<a href="https://lesnoe.bg/" target="_blank"> </a>)
 
 
 
