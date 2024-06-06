@@ -15,6 +15,12 @@
     </div>
 </div>
 
+[![Linkedin Badge](https://img.shields.io/badge/-mmihaylov-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mihmihaylov/)](https://www.linkedin.com/in/mihmihaylov/)
+
+[![Linkedin Badge](https://img.shields.io/badge/lesno%20e%20.bg-8A2BE2)](https://lesnoe.bg/)
+
+
+
 ## GETTING STARTED 🚀
 The purpose of this portfolio page is to demonstrate knowledge in the field of software testing and quality assurance. I will be updating the contents over time as I learn new skills. The idea is to have a portfolio repository where each branch is dedicated to a different topic (see "TABLE OF CONTENTS" below) that I am reasearching. While I realize that this is not the most conventional way to utilize branches, I believe it is a good method to manage the portfolio data for the time being and work on each topic separately. 
 
