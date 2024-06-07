@@ -20,7 +20,38 @@ The application is written using node.JS and the Express framework. It uses a My
 | DELETE | /users/:id       | Delete a user by ID from the database.     | `DELETE http://localhost:3000/users/123`                                                                           |
 | PATCH  | /users/:id       | Update an existing user in the database.   | `PATCH http://localhost:3000/users/123` <br> Content-Type: application/json <br> `{ "name": "Updated Name", "email": "updated.email@example.com" }` |
 
+## Requirements 🔧
 
+
+## How To Use 🔧
+
+From your command line, first clone Simplefolio:
+
+```bash
+# Clone the repository branch
+$ git clone -b nodeJS_Express_API https://github.com/mimmato/portfolio.git
+
+# Move into the repository branch directory
+$ cd portfolio
+
+
+```
+
+After that, you can install the dependencies either using NPM or Yarn.
+
+Using NPM: Simply run the below commands.
+
+```bash
+# 2022 Update - Fix Dependencies
+$ npm audit fix
+$ npm i @parcel/transformer-sass
+
+# Install dependencies
+$ npm install
+
+# Start the development server
+$ npm start
+```
             
 
 </body>
