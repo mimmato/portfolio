@@ -35,15 +35,13 @@ The application is written using node.JS and the Express framework. It uses a My
 
 From your command line, first clone Simplefolio:
 
-```bash
-# Clone the repository branch
-$ git clone -b nodeJS_Express_API https://github.com/mimmato/portfolio.git
+bash
+#### Clone the repository branch
+$ ```git clone -b nodeJS_Express_API https://github.com/mimmato/portfolio.git```
 
-# Move into the repository branch directory
-$ cd portfolio
+#### Move into the repository branch directory
+$ ```cd portfolio```
 
-
-```
 
 After that, you can install the dependencies either using NPM or Yarn.
 
