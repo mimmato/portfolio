@@ -49,7 +49,9 @@ Each branch of the repository will have its README.md file updated accordingly w
 - 4.1
 - 4.2
 
-## Qualifications & Certificates
+
+## Qualifications & Certificates 
+<details>
 
 | Certificate                                                                                          | Date       | Organization |
 |------------------------------------------------------------------------------------------------------|------------|--------------|
@@ -58,16 +60,18 @@ Each branch of the repository will have its README.md file updated accordingly w
 | [Capstone: Applying Project Management in the Real World](https://www.coursera.org/account/accomplishments/verify/38BMAN2Y59WM) | Jan 2024   | Google       |
 | [QA Basics](https://softuni.bg/certificates/details/178607/9ecc6617)                                 | Jul 2023   | SoftUni      |
 
+</details>
 
 ## Education
+
+<details>
 
 | Years      | Degree                              | Field of Study                          | Grade       | Location           | Description                                                                                                                                                                                                                                                                                              |
 |------------|-------------------------------------|-----------------------------------------|-------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2014-2017  | Bachelor of Arts (BA)               | Popular Music                           | 2:1 Hons    | Middlesex University | I graduated from Middlesex University with a BA degree in Popular Music. My training was in contemporary music performance, composition, production, and business studies. I developed practical skills in playing instruments, songwriting, and music technology, and had opportunities to perform in some of the largest London venues. The program also covered music theory, history, and cultural studies.  |
 | 2011-2014  | BTEC                                | Information Technology (Business Information Systems) | Distinction | Aylesbury College   | I earned a BTEC in Information Technology, with my final year focused on Business Information Systems. Throughout the program, I gained practical skills in IT fundamentals, including software development, networking, and database management. In the final year, I specialized in Business Information Systems, learning how to design, implement, and manage information systems to support business operations and decision-making. This education has equipped me with a strong foundation in both IT and business applications, preparing me for various roles in the tech industry. |
 
-
-
+</details>
 
 </body>
 </html>
