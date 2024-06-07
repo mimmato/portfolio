@@ -8,7 +8,7 @@
 This branch holds all files of the REST API I am writing. It is a simple API with several endpoints to manage user data and do some testing. 
 At the time of writing this, the API uses "/users" as the endpoint and you can use several HTTP Methods to manage it (see [Available Endpoints](#available-endpoints)).
 
-The application is written using node.JS and the Express framework. It uses a MySQL database to store data.
+The application is written using node.JS and the Express framework. It uses a MySQL database to store data and was fully developed under WSL version 2.
 
 ## Available Endpoints
 
@@ -33,15 +33,15 @@ The application is written using node.JS and the Express framework. It uses a My
 
 ## How To Use 🔧
 
-From your command line, first clone Simplefolio:
+From your command line, first clone the `nodeJS_Express_API` branch:
 
-bash
-#### Clone the repository branch
-$ ``git clone -b nodeJS_Express_API https://github.com/mimmato/portfolio.git``
+```bash
+# Clone the repository branch
+$ git clone -b nodeJS_Express_API https://github.com/mimmato/portfolio.git
 
-#### Move into the repository branch directory
-$ `cd portfolio`
-
+# Move into the repository branch directory
+$ cd portfolio
+```
 
 After that, you can install the dependencies either using NPM or Yarn.
 
