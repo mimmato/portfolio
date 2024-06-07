@@ -25,14 +25,12 @@
 </p>
 
 
-
-
-
-
 ## GETTING STARTED 🚀
-The purpose of this portfolio page is to demonstrate knowledge in the field of software testing and quality assurance. I will be updating the contents over time as I learn new skills. The idea is to have a portfolio repository where each branch is dedicated to a different topic (see "TABLE OF CONTENTS" below) that I am reasearching. While I realize that this is not the most conventional way to utilize branches, I believe it is a good method to manage the portfolio data for the time being and work on each topic separately. 
+The purpose of this portfolio page is to demonstrate knowledge in the field of software testing and quality assurance. I will be updating the contents over time as I learn new skills. 
 
-Each branch of the repository will have its README.md file updated accordingly with relevent information about the technology, the reasearch that I have done, how to use the included code etc.
+The idea is to have a portfolio repository where each branch is dedicated to a different topic (see "TABLE OF CONTENTS" below) that I am reasearching. While I realize that this is not the most conventional way to utilize branches, I believe it is a good method to manage the portfolio data for the time being and work on each topic separately. 
+
+Each branch of the repository will have its README.md file updated accordingly with relevent information about the technology, the reasearch that I have done and how to use the included code.
 
 ## TABLE OF CONTENTS
 
@@ -62,22 +60,12 @@ Each branch of the repository will have its README.md file updated accordingly w
 [QA Basics](https://softuni.bg/certificates/details/178607/9ecc6617) <div style="text-align: right;">Jul 2023</div>
 
 
-## Education: 
+## Education
 
-    years: 2014-2017
-    degree: Bachelor of Arts (BA)
-    field of study: Popular Music
-    grade: 2:1 Hons
-    location: Middlesex University
-    description: I graduated from Middlesex University with a BA degree in Popular Music. My training was in contemporary music performance, composition, production, and business studies. I developed practical skills in playing instruments, songwriting, and music technology, and had opportunities to perform in some of the largest London venues. The program also covered music theory, history, and cultural studies.
-
-
-    years: 2011-2014
-    degree: BTEC
-    field of study: Information Technology (Business Information Systems)
-    grade: Distinction
-    location: Aylesbury College
-    description: I earned a BTEC in Information Technology, with my final year focused on Business Information Systems. Throughout the program, I gained practical skills in IT fundamentals, including software development, networking, and database management. In the final year, I specialized in Business Information Systems, learning how to design, implement, and manage information systems to support business operations and decision-making. This education has equipped me with a strong foundation in both IT and business applications, preparing me for various roles in the tech industry.
+| Years      | Degree                              | Field of Study                          | Grade       | Location           | Description                                                                                                                                                                                                                                                                                              |
+|------------|-------------------------------------|-----------------------------------------|-------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2014-2017  | Bachelor of Arts (BA)               | Popular Music                           | 2:1 Hons    | Middlesex University | I graduated from Middlesex University with a BA degree in Popular Music. My training was in contemporary music performance, composition, production, and business studies. I developed practical skills in playing instruments, songwriting, and music technology, and had opportunities to perform in some of the largest London venues. The program also covered music theory, history, and cultural studies.  |
+| 2011-2014  | BTEC                                | Information Technology (Business Information Systems) | Distinction | Aylesbury College   | I earned a BTEC in Information Technology, with my final year focused on Business Information Systems. Throughout the program, I gained practical skills in IT fundamentals, including software development, networking, and database management. In the final year, I specialized in Business Information Systems, learning how to design, implement, and manage information systems to support business operations and decision-making. This education has equipped me with a strong foundation in both IT and business applications, preparing me for various roles in the tech industry. |
 
 
 
