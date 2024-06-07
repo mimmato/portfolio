@@ -28,7 +28,7 @@
 ## GETTING STARTED 🚀
 The purpose of this portfolio page is to demonstrate knowledge in the field of software testing and quality assurance. I will be updating the contents over time as I learn new skills. 
 
-The idea is to have a portfolio repository where each branch is dedicated to a different topic (see "TABLE OF CONTENTS" below) that I am reasearching. While I realize that this is not the most conventional way to utilize branches, I believe it is a good method to manage the portfolio data for the time being and work on each topic separately. 
+The idea is to have a portfolio repository where each branch is dedicated to a different topic (see [TABLE OF CONTENTS](#table-of-contents) below) that I am reasearching. While I realize that this is not the most conventional way to utilize branches, I believe it is a good method to manage the portfolio data for the time being and work on each topic separately. 
 
 Each branch of the repository will have its README.md file updated accordingly with relevent information about the technology, the reasearch that I have done and how to use the included code.
 
