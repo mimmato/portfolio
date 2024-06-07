@@ -10,6 +10,14 @@ At the time of writing this, the API uses "/users" as the endpoint and you can u
 
 The application is written using node.JS and the Express framework. It uses a MySQL database to store data and was fully developed under WSL version 2.
 
+#### FILE STRUCTURE
+
+The application relies on 
+
+testdbapi.sql
+
+
+
 ## Available Endpoints
 
 | Method | Endpoint         | Description                                | Example                                                                                                            |
@@ -41,7 +49,20 @@ $ git clone -b nodeJS_Express_API https://github.com/mimmato/portfolio.git
 
 # Move into the repository branch directory
 $ cd portfolio
+
+# Start the app.js file
+$ node app.js
+Server is running on port http://localhost:3000
+Connected to MySQL database
 ```
+
+## Prerequisites
+
+node
+npm
+express
+mysql
+js
 
 After that, you can install the dependencies either using NPM or Yarn.
 
