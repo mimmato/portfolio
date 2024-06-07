@@ -23,6 +23,14 @@ The application is written using node.JS and the Express framework. It uses a My
 ## Requirements 🔧
 
 
+| Requirement       | Version         | Description                                                                                     |
+|-------------------|-----------------|-------------------------------------------------------------------------------------------------|
+| Node.js           | >= 12.x         | JavaScript runtime environment. Ensure you have Node.js installed.   (check ```node -v```)                           |
+| npm      | >= 6.x   | Node package manager. Comes with Node.js (npm) or can be installed separately (yarn). (check ```npm -v```)           |
+| Express           | >= 4.x          | Web framework for Node.js. Used for building the API. (check ```npm list express```)                                     |
+| MySQL             | >= 8.x          | Relational database management system. Required if your application uses MySQL as a database. (check ```mysql --version```)  |                  |
+| Git               | latest          | Version control system. Necessary if you are cloning the repository. (check ```git --version```)                            |
+
 ## How To Use 🔧
 
 From your command line, first clone Simplefolio:
